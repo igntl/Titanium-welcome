@@ -19,7 +19,7 @@ client.on('guildMemberAdd', async (member) => {
 
   const embed = new EmbedBuilder()
     .setColor("#ffffff")
-    .setDescription(`** Welcome to server TITANIUM 
+    .setDescription(`Welcome to server TITANIUM 
 
 ${member}
 
