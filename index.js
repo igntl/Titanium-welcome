@@ -13,7 +13,7 @@ client.on('ready', () => {
 
 client.on('guildMemberAdd', async (member) => {
 
-  const channel = member.guild.channels.cache.get("1483219896069525665");
+  const channel = member.guild.channels.cache.get("1359990933260861481");
 
   if (!channel) return;
 
@@ -27,11 +27,6 @@ ${member}
 .هنا نعيش جو من المتعة، التفاعل، والإبداع والكل مرحّب فيه
 .تأكد إنك تطّلع على القوانين أول، واحرص تكون مشاركتك إيجابية ومحترمة 🤍`)
     .setImage("https://files.catbox.moe/8lrw05.png");
-
-  const role = member.guild.roles.cache.get("1483258920653947093");
-  if (role) {
-    member.roles.add(role).catch(() => {});
-  }
 
   channel.send({
     embeds: [embed]
