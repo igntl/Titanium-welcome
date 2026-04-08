@@ -26,7 +26,7 @@ ${member}
   نورت السيرفر وشرفتنا بانضمامك
 .هنا نعيش جو من المتعة، التفاعل، والإبداع والكل مرحّب فيه
 .تأكد إنك تطّلع على القوانين أول، واحرص تكون مشاركتك إيجابية ومحترمة 🤍`)
-    .setImage("https://i.imgur.com/7b1Yk5F.png");
+    .setImage("https://files.catbox.moe/8lrw05.png");
 
   const role = member.guild.roles.cache.get("1483258920653947093");
   if (role) {
