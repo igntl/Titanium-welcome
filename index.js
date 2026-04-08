@@ -18,7 +18,7 @@ client.on('guildMemberAdd', async (member) => {
   if (!channel) return;
 
   const embed = new EmbedBuilder()
-    .setColor("#348017")
+    .setColor("#8BB381")
     .setDescription(`Welcome to server TITANIUM 
 
 ${member}
